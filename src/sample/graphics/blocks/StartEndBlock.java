@@ -7,8 +7,8 @@ public class StartEndBlock implements Shape {
 
     @Override
     public void draw(GraphicsContext graphicsContext) {
-        graphicsContext.setFill(Color.DARKRED);
-        graphicsContext.fillOval(100, 175, 400, 210);
+        graphicsContext.setFill(Color.DARKVIOLET);
+        graphicsContext.fillOval(100, 70, 400, 210);
     }
 
 }

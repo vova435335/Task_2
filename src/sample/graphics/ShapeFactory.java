@@ -7,10 +7,10 @@ public class ShapeFactory {
     public Shape createPolygon(int numberOfSides) {
         switch (numberOfSides) {
             case 0:
-            case 7:
+            case 6:
                 return new StartEndBlock();
             case 1:
-            case 6:
+            case 5:
                 return new InputOutputBlock();
             case 2:
                 return new DecisionBlock();

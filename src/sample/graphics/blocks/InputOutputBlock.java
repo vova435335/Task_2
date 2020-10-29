@@ -8,7 +8,7 @@ public class InputOutputBlock implements Shape {
     @Override
     public void draw(GraphicsContext graphicsContext) {
         graphicsContext.setFill(Color.DARKRED);
-        graphicsContext.strokePolygon(
+        graphicsContext.fillPolygon(
                 new double[]{100, 200, 500, 400},
                 new double[]{280, 70, 70, 280},
                 4);

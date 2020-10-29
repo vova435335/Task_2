@@ -9,9 +9,9 @@ public class ConditionBlock implements Shape {
     public void draw(GraphicsContext graphicsContext) {
         graphicsContext.setFill(Color.DARKSEAGREEN);
         graphicsContext.fillPolygon(
-                new double[]{100, 200, 400, 500, 400, 200},
-                new double[]{175, 70, 70, 175, 280, 280},
-                6
+                new double[]{100, 300, 500, 300},
+                new double[]{175, 70, 175, 280},
+                4
         );
     }
 }
